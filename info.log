@@ -1,0 +1,608 @@
+{"level":"ERROR","logtime":"2020-06-13 10:04:09.420","caller":"checker/monitor.go:190","msg":"/var/opt/queuePos file get failed","stacktrace":"control-plane/pkg/register/checker.GetQueuePos\n\t/go/src/pilot/pkg/register/checker/monitor.go:190\ncontrol-plane/pkg/register/checker.MonitorQueue\n\t/go/src/pilot/pkg/register/checker/monitor.go:124\ncontrol-plane/pkg/register/checker.MonitorHandler\n\t/go/src/pilot/pkg/register/checker/monitor.go:89"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.438","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006101006572207"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.448","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.455","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.461","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.465","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.470","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.477","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.482","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.487","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.494","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.501","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.509","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006101006572207"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.520","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.527","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.533","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.539","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.545","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.552","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.561","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.569","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.576","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.582","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.589","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.596","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.601","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.605","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.612","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.618","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.624","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.629","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.636","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.644","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.650","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.658","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.664","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.670","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.676","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.681","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.686","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.691","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.695","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.700","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.706","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.711","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.720","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.728","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.735","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.740","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.747","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.752","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.757","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.763","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.768","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.772","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.782","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.787","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.792","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.797","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.802","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.807","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.811","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.816","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.820","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.827","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.834","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.841","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.847","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.851","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.856","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.861","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.866","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.871","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.879","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.885","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:09.892","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.433","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.443","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.449","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.454","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.465","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.472","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.480","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.486","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.493","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.500","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.507","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.516","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.520","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.525","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.531","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.535","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.541","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.546","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.552","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.562","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.568","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.574","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.583","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.590","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.596","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.603","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.609","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.614","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.621","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.626","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.633","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.638","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.645","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.653","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.662","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.670","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.678","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.685","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.694","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.699","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.705","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.710","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.715","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.723","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.730","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.739","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.746","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.753","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.761","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.769","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.778","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.787","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.794","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.805","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.814","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.822","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.827","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.833","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.838","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.845","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.849","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.855","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.860","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.865","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.870","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.878","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.885","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.891","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.896","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.901","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.908","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.915","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.924","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.932","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.942","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.950","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.955","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.963","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.971","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.978","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.987","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.992","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:10.998","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.004","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.010","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.433","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.451","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.459","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.468","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.475","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.481","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.487","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.492","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.501","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.506","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.511","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.518","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.526","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.533","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.541","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.547","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.553","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.559","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.564","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.569","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.577","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.583","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.592","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.597","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.603","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.610","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.616","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.623","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.630","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.638","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.646","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.654","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.665","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.675","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.683","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.689","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.696","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.705","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.715","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.724","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.730","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.737","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.743","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.750","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.762","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.770","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.776","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.782","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.787","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.794","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.802","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.807","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.817","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.823","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.830","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.836","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.844","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.849","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.854","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.859","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.863","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.868","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.875","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.883","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.889","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.898","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.904","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.911","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.916","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.921","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.928","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.934","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.941","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.947","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:11.952","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.431","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.443","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.450","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.457","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.463","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.469","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.475","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.482","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.486","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.492","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.497","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.505","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.512","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.519","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.527","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.532","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.537","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.542","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.547","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.553","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.558","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.566","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111151288511"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.573","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.578","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.583","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.588","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.593","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.600","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.607","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.614","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.621","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.628","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.635","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111151288511"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.645","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.651","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.655","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.660","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.668","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.675","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.686","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.698","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.705","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.713","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.720","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.725","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.731","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.739","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.747","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.754","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.761","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.768","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.776","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.787","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.794","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.804","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.810","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.816","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.823","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.834","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.842","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.850","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.859","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.867","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.874","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.880","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.892","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.898","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.904","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.909","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.916","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.922","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.928","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.933","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.940","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.945","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.951","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.958","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.967","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.973","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.978","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.983","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.988","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:12.995","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.004","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.010","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.434","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.442","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.448","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.453","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.459","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.467","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.472","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.477","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.482","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.487","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.492","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.498","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.505","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.510","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.516","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.521","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.526","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.531","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.536","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.543","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.548","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.552","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.558","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.564","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.569","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.575","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.582","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.588","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.593","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.598","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.604","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.610","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.620","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.626","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.632","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.638","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.645","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.651","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.656","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.663","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.668","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.673","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.677","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.684","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.689","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.698","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.705","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.710","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.715","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.720","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.725","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.730","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.738","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.744","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.751","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.756","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.762","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.766","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.774","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.779","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.785","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.791","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.796","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.801","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.812","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.818","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.826","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.833","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.839","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.844","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.851","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.857","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.862","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.871","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"INFO","logtime":"2020-06-13 10:04:13.878","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130439455501"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.435","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.448","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.454","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.461","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.467","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130439455501"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.477","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.482","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.488","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.492","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.499","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.503","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.507","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.512","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.516","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.520","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.524","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.527","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.536","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.540","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.545","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:14.549","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.441","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.447","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.454","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.459","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.467","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.474","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.479","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.484","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.490","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.496","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.505","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.510","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.519","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.524","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.528","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.533","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.538","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.543","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.550","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.555","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.566","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448493607"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.572","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130448507515"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.580","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130520215097"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.587","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130534542253"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.597","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110222015740"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.606","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110251214490"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.614","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110501514573"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.620","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110503017724"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.626","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110507399169"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.632","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110803007868"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.637","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006110809593193"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.642","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111154530641"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.649","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006111156194029"}
+{"level":"INFO","logtime":"2020-06-13 10:04:15.654","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006120537256551"}
+{"level":"WARN","logtime":"2020-06-13 10:04:15.654","caller":"checker/monitor.go:301","msg":"build \"202006130552434978\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.422","caller":"checker/monitor.go:301","msg":"build \"202006130552461620\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.424","caller":"checker/monitor.go:301","msg":"build \"202006130553029887\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.425","caller":"checker/monitor.go:301","msg":"build \"202006130553309167\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.426","caller":"checker/monitor.go:301","msg":"build \"202006130554253226\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.427","caller":"checker/monitor.go:301","msg":"build \"202006130555481437\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.428","caller":"checker/monitor.go:301","msg":"build \"202006130558375182\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.430","caller":"checker/monitor.go:301","msg":"build \"202006130603516299\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:16.431","caller":"checker/monitor.go:301","msg":"build \"202006130609077124\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.423","caller":"checker/monitor.go:301","msg":"build \"202006130614170275\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.424","caller":"checker/monitor.go:301","msg":"build \"202006130619207576\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.425","caller":"checker/monitor.go:301","msg":"build \"202006130624337774\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.427","caller":"checker/monitor.go:301","msg":"build \"202006130629383502\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.428","caller":"checker/monitor.go:301","msg":"build \"202006130634512239\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.429","caller":"checker/monitor.go:301","msg":"build \"202006130639591678\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:17.430","caller":"checker/monitor.go:301","msg":"build \"202006130645032970\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.423","caller":"checker/monitor.go:301","msg":"build \"202006130650095598\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.424","caller":"checker/monitor.go:301","msg":"build \"202006130655196095\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:18.436","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130700265907"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.437","caller":"checker/monitor.go:301","msg":"build \"202006130703187592\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.440","caller":"checker/monitor.go:301","msg":"build \"202006130703183121\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.441","caller":"checker/monitor.go:301","msg":"build \"202006130703215768\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.443","caller":"checker/monitor.go:301","msg":"build \"202006130703222462\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:18.444","caller":"checker/monitor.go:301","msg":"build \"202006130703342363\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.425","caller":"checker/monitor.go:301","msg":"build \"202006130703368564\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.429","caller":"checker/monitor.go:301","msg":"build \"202006130704029323\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.432","caller":"checker/monitor.go:301","msg":"build \"202006130704048940\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.433","caller":"checker/monitor.go:301","msg":"build \"202006130704463984\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.436","caller":"checker/monitor.go:301","msg":"build \"202006130704561817\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.437","caller":"checker/monitor.go:301","msg":"build \"202006130706201483\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:19.439","caller":"checker/monitor.go:301","msg":"build \"202006130706268990\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.423","caller":"checker/monitor.go:301","msg":"build \"202006130709134517\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.425","caller":"checker/monitor.go:301","msg":"build \"202006130709163958\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:20.436","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130714190244"}
+{"level":"INFO","logtime":"2020-06-13 10:04:20.443","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130714251515"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.444","caller":"checker/monitor.go:301","msg":"build \"202006130714373128\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.446","caller":"checker/monitor.go:301","msg":"build \"202006130714377958\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.448","caller":"checker/monitor.go:301","msg":"build \"202006130714401064\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:20.449","caller":"checker/monitor.go:301","msg":"build \"202006130714409659\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.423","caller":"checker/monitor.go:301","msg":"build \"202006130714570374\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.427","caller":"checker/monitor.go:301","msg":"build \"202006130714583527\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.430","caller":"checker/monitor.go:301","msg":"build \"202006130715276570\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.432","caller":"checker/monitor.go:301","msg":"build \"202006130715289421\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.433","caller":"checker/monitor.go:301","msg":"build \"202006130716121302\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:21.435","caller":"checker/monitor.go:301","msg":"build \"202006130716192362\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:21.443","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130717445875"}
+{"level":"INFO","logtime":"2020-06-13 10:04:22.433","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130717538784"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.435","caller":"checker/monitor.go:301","msg":"build \"202006130719408101\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.437","caller":"checker/monitor.go:301","msg":"build \"202006130719424926\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.438","caller":"checker/monitor.go:301","msg":"build \"202006130719572620\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.440","caller":"checker/monitor.go:301","msg":"build \"202006130719584732\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.441","caller":"checker/monitor.go:301","msg":"build \"202006130719595756\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.442","caller":"checker/monitor.go:301","msg":"build \"202006130720145616\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:22.444","caller":"checker/monitor.go:301","msg":"build \"202006130720255831\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:23.423","caller":"checker/monitor.go:301","msg":"build \"202006130720415816\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:23.426","caller":"checker/monitor.go:301","msg":"build \"202006130721173343\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.437","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130721351134"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.444","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130722488428"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.450","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737157462"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.459","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.469","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130714190244"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.474","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130717538784"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.486","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130722488428"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.492","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737157462"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.502","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:23.502","caller":"checker/monitor.go:301","msg":"build \"202006130919020726\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.509","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737157462"}
+{"level":"INFO","logtime":"2020-06-13 10:04:23.520","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.430","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.441","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130714190244"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.447","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130717538784"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.457","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130722488428"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.467","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737157462"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.477","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.482","caller":"checker/monitor.go:301","msg":"build \"202006130919020726\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.491","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130714190244"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.496","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130717538784"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.504","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130722488428"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.510","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737157462"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.522","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.523","caller":"checker/monitor.go:301","msg":"build \"202006130919020726\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.532","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.541","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.543","caller":"checker/monitor.go:301","msg":"build \"202006130832030102\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:24.552","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.556","caller":"checker/monitor.go:301","msg":"build \"202006130832030102\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.557","caller":"checker/monitor.go:301","msg":"build \"202006130840260105\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:24.558","caller":"checker/monitor.go:301","msg":"build \"202006130843255310\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:25.422","caller":"checker/monitor.go:301","msg":"build \"202006130843255310\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:25.426","caller":"checker/monitor.go:301","msg":"build \"202006130848145409\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:25.438","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:25.444","caller":"checker/monitor.go:301","msg":"build \"202006130849270366\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:25.450","caller":"checker/monitor.go:301","msg":"build \"202006130854174689\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:25.450","caller":"checker/monitor.go:301","msg":"build \"202006130856407225\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:25.453","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130856407225"}
+{"level":"INFO","logtime":"2020-06-13 10:04:26.441","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:26.449","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130911369745"}
+{"level":"INFO","logtime":"2020-06-13 10:04:26.459","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:26.460","caller":"checker/monitor.go:301","msg":"build \"202006130749037973\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:26.460","caller":"checker/monitor.go:301","msg":"build \"202006130917437272\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:26.471","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:29.423","caller":"checker/monitor.go:301","msg":"build \"202006130917437272\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:29.425","caller":"checker/monitor.go:301","msg":"build \"202006130918421832\" config error: load proxy services error: sidecar have no ip"}
+{"level":"WARN","logtime":"2020-06-13 10:04:29.428","caller":"checker/monitor.go:301","msg":"build \"202006130919020726\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:29.438","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:29.448","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130919020726"}
+{"level":"INFO","logtime":"2020-06-13 10:04:46.178","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 10:04:46.261","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 10:04:46.265","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 10:04:46.346","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 10:04:48.355","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"WARN","logtime":"2020-06-13 10:04:48.359","caller":"sidecar/envoy.go:150","msg":"sidecar type dones not match uid","sidecar_uid":"202006131004453076"}
+{"level":"WARN","logtime":"2020-06-13 10:04:48.426","caller":"checker/monitor.go:301","msg":"build \"202006131004453076\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"INFO","logtime":"2020-06-13 10:04:48.445","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"INFO","logtime":"2020-06-13 10:04:48.513","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 10:04:50.435","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"WARN","logtime":"2020-06-13 10:04:50.443","caller":"checker/monitor.go:301","msg":"build \"202006131004459678\" config error: load proxy services error: sidecar have no ip"}
+{"level":"INFO","logtime":"2020-06-13 10:04:50.822","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 10:04:50.996","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 10:04:53.179","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"INFO","logtime":"2020-06-13 10:04:53.209","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 10:04:56.433","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006130737162937"}
+{"level":"INFO","logtime":"2020-06-13 10:04:56.443","caller":"checker/monitor.go:304","msg":"sidecar pushed successfully through gprc","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:11.282","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:17.603","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:20.946","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:22.387","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:23.618","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:26.273","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:07:27.833","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:08:08.528","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:09:16.973","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:01.505","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:04.391","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:05.863","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:07.375","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:08.887","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:10.327","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:11.763","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:19.453","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:25.270","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:26.709","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:28.337","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:30.613","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:32.669","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:34.908","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:36.316","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:43.131","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:45.484","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:47.212","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:50.130","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:54.442","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:58.425","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:10:59.755","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:11:12.657","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:11:15.818","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 10:12:01.692","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
