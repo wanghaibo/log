@@ -606,3 +606,38 @@
 {"level":"WARN","logtime":"2020-06-13 10:11:12.657","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
 {"level":"WARN","logtime":"2020-06-13 10:11:15.818","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
 {"level":"WARN","logtime":"2020-06-13 10:12:01.692","caller":"checker/monitor.go:745","msg":"get sidecar instance error","sidecar_uid":"202006131004498112"}
+{"level":"WARN","logtime":"2020-06-13 11:30:00.531","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:30:16.437","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:30:27.455","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:30:32.475","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:30:48.501","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:30:51.509","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:31:11.431","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:31:30.461","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:31:38.473","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:31:47.493","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"INFO","logtime":"2020-06-13 11:31:57.100","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 11:31:57.185","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"WARN","logtime":"2020-06-13 11:31:57.431","caller":"checker/monitor.go:301","msg":"build \"202006131131555707\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"INFO","logtime":"2020-06-13 11:31:59.365","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"WARN","logtime":"2020-06-13 11:31:59.369","caller":"sidecar/envoy.go:150","msg":"sidecar type dones not match uid","sidecar_uid":"202006131131555707"}
+{"level":"WARN","logtime":"2020-06-13 11:31:59.521","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"INFO","logtime":"2020-06-13 11:32:01.523","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"WARN","logtime":"2020-06-13 11:32:01.530","caller":"sidecar/envoy.go:150","msg":"sidecar type dones not match uid","sidecar_uid":"202006131132008737"}
+{"level":"WARN","logtime":"2020-06-13 11:32:02.527","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:32:05.535","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:32:08.543","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"INFO","logtime":"2020-06-13 11:32:15.013","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 11:32:15.060","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"WARN","logtime":"2020-06-13 11:32:15.429","caller":"checker/monitor.go:301","msg":"build \"202006131132136325\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"WARN","logtime":"2020-06-13 11:32:16.437","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"INFO","logtime":"2020-06-13 11:32:17.155","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"INFO","logtime":"2020-06-13 11:32:17.277","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"INFO","logtime":"2020-06-13 11:32:18.684","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":3}
+{"level":"INFO","logtime":"2020-06-13 11:32:18.815","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"WARN","logtime":"2020-06-13 11:32:19.426","caller":"checker/monitor.go:301","msg":"build \"202006131132179430\" config error: load proxy services error: unmarshal sidecar config error: unexpected end of JSON input"}
+{"level":"INFO","logtime":"2020-06-13 11:32:21.048","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":1}
+{"level":"INFO","logtime":"2020-06-13 11:32:21.122","caller":"sidecar/envoy.go:119","msg":"insert queue success","queue_type":8}
+{"level":"WARN","logtime":"2020-06-13 11:32:27.461","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"local-skywalking-demo-1.1.0-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:32:34.471","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
+{"level":"WARN","logtime":"2020-06-13 11:32:37.476","caller":"checker/health.go:137","msg":"less than two service instances!","service domain":"refinance-server-svc"}
